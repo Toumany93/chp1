@@ -75,6 +75,7 @@ class MaFenetre(QtWidgets.QMainWindow):
     def clear_Ledit(self):
         self.LEdit_nombre1.setText("")
         self.LEdit_nombre2.setText("")
+        self.lbl_somme.setText(".....")
 
     def calculer (self):
         resultat = int(self.LEdit_nombre1.text()) + int(self.LEdit_nombre2.text())
